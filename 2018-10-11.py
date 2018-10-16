@@ -8,9 +8,11 @@ Given a list of numbers and a number k, return whether any two numbers from the 
 Bonus: Can you do this in one pass?
 """
 
+from itertools import combinations
+
 
 def adds_up(xs, k):
-    pass
+    return k in {sum(c) for r in range(len(xs)) for c in combinations(xs, r=r)}
 
 
 assert adds_up([10, 15, 3, 7], 17)
