@@ -9,3 +9,4 @@ I signed up for https://www.dailycodingproblem.com, these are my attempts to sol
 | 2018-10-13 | Write a parser     | X         |
 | 2018-10-14 | ???                |           |
 | 2018-10-15 | ???                |           |
+| 2018-10-16 | ???                |           |
